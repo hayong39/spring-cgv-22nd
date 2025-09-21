@@ -4,6 +4,8 @@ CEOS 22기 백엔드 스터디 - CGV 클론 코딩 프로젝트
 ## 1️⃣ 
 
 ### ERD
+<img width="1830" height="1112" alt="CGV_HY" src="https://github.com/user-attachments/assets/32dd7a3b-e0aa-42bc-bfed-e4b7761a9fa8" />
+
 
 ### 설명
 1. 영화관 & 상영관
@@ -25,3 +27,4 @@ CEOS 22기 백엔드 스터디 - CGV 클론 코딩 프로젝트
 ## 2️⃣~6️⃣ 
 
 ### swagger 캡처 화면
+<img width="1312" height="926" alt="KakaoTalk_Photo_2025-09-21-오후 8-23-19" src="https://github.com/user-attachments/assets/f14a8d8d-2dd9-40dd-888f-a8e305dc8f1f" />
