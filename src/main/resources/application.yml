@@ -15,7 +15,10 @@ spring:
         format_sql: true
 
 logging:
+  file:
+    path: logs
   level:
+    root: info
     org.hibernate.SQL: debug
 
 kakao:
