@@ -40,4 +40,12 @@ public class Reservation extends BaseEntity{
 		this.status = status;
 	}
 
+	public static Reservation create(User user, MovieTime movieTime, ReservationStatus status) {
+		return Reservation.builder()
+			.user(user)
+			.movieTime(movieTime)
+			.status(status)
+			.build();
+	}
+
 }
