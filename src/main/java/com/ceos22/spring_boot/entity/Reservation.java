@@ -48,4 +48,6 @@ public class Reservation extends BaseEntity{
 			.build();
 	}
 
+	public void setStatus(ReservationStatus status){ this.status = status; }
+
 }

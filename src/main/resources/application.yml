@@ -26,3 +26,8 @@ jwt:
   secret: ${JWT_SECRET}
   access-token-validity: 1800000
   refresh-token-validity: 604800000
+
+payment:
+  ceos:
+    base-url: ${PAYMENT_URL}
+    api-secret: ${PAYMENT_SECRET}
