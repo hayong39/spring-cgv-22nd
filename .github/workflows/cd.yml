@@ -56,7 +56,6 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script_stop: true
           script: |
             # Spring 컨테이너 중지 및 제거 (컨테이너가 있는 경우)
             sudo docker stop uble-main || true
