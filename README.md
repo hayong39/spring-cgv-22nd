@@ -256,3 +256,6 @@ CEOS 22기 백엔드 스터디 - CGV 클론 코딩 프로젝트
   - WARN: 비정상 동작 (복구 가능)
   - INFO: 비즈니스 흐름
   - DEBUG: 상세 내부 동작 (개발 전용)
+
+### 서비스 아키텍쳐
+<img width="799" height="663" alt="Group 427320323" src="https://github.com/user-attachments/assets/0d3e7017-e7b4-406c-98d7-8ebb8b3eb923" />
