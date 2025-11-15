@@ -368,20 +368,45 @@ CREATE INDEX idx_name ON users(name);
 
 ### 4. 성능 최적화해보기
 1) 인덱스 추가로 성능 최적화
+   
 [Before]
+
+<img width="905" height="71" alt="image" src="https://github.com/user-attachments/assets/41fc1ffa-e129-4c62-9bd2-7b34b4342b59" />
 
 [Optimization]
 
+<img width="905" height="43" alt="image" src="https://github.com/user-attachments/assets/b01b8884-5065-4c03-8c0f-15bf84273ad0" />
+
 [After]
+
+<img width="905" height="69" alt="image" src="https://github.com/user-attachments/assets/63debba4-ac14-43ee-b38d-0fa1ae6692ce" />
+
+
+<br><br>
 
 
 2) INNER JOIN vs EXIST
+
 [Before]
 
+<img width="905" height="130" alt="image" src="https://github.com/user-attachments/assets/98967977-4bba-4352-99d7-b4c648990407" />
+
+
 [After]
+
+<img width="905" height="114" alt="image" src="https://github.com/user-attachments/assets/ad80f217-1e00-4b17-9df8-12e200a88e93" />
+
+
+<br><br>
 
 
 3) JOIN 순서 최적화
+   
 [Before]
 
+<img width="881" height="114" alt="image" src="https://github.com/user-attachments/assets/c2941cee-4128-491c-b369-c7c40b01693c" />
+
+
 [After]
+
+<img width="881" height="109" alt="image" src="https://github.com/user-attachments/assets/df355b37-8562-4bf9-be64-a20759466ffc" />
